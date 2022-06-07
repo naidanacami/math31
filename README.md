@@ -28,3 +28,21 @@ In general, it should follow this format:
 <pre></pre>
 ### Sub heading
 ```
+
+<pre></pre>
+LaTeX can follow this format:
+```
+$inline equation$
+
+$$
+main equation
+$$
+
+$$
+\begin{align}
+&series \\
+&of \\
+&equations \\
+\end{align}
+$$
+```
