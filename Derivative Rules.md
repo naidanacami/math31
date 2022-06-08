@@ -87,3 +87,22 @@ $$
 $$
 f(x)=mx+b \quad\longrightarrow\quad f'(x)=m 
 $$
+<pre>
+
+</pre>
+## Derivative rules with values
+Follow all the normla derivative rules, but substitute in values when doing the derivative
+
+>Ex: If $f(x) = 3$, $f'(x) = -2$, $g(x) = 5$, and $g'(x) = 7$, find $y'$
+><pre></pre>
+>I) $y = f(x)g(x)$
+>$y' = 3(7) + 5(-2)$
+>$y' = 11$
+><pre></pre>
+>II) $y = \frac{f(x)}{g(x)}$
+>$y' = \frac{5(-2)-(3)(7)}{5^2}$
+>$y' = \frac{-31}{25}$
+><pre></pre>
+>III) $y =[f(x)]^2$
+>$y' = 2(3)(-2)$
+>$y' = -12$

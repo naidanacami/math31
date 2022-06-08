@@ -15,7 +15,7 @@
 ## Other
 - [ ] Definition of a derivative
 - [ ] Simplify derivative 
-- [ ] Derivative rules with values
+- [x] Derivative rules with values
 - [ ] More optimization examples
 - [ ] More related rate examples
 - [ ] Trig Limits examples
