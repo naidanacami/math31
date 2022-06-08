@@ -12,8 +12,7 @@ $$
 
 
 
-<pre>
-</pre>
+<pre></pre>
 #### Instantaneous Rate of Change - Derivative
 - It is the instant rate of change
 $$
@@ -46,8 +45,8 @@ A secant line in this instance represents an average rate of change ($\Delta v$ 
 >$$
 >The average velocity from $t=3s$ to $t=6s$  is 0 cm/s
 
-<pre></pre>
 
+<pre></pre>
 ### Exact rates of change using derivatives
 - The first derivative of a displacement/time graph is velocity
 - The second derivative of a displacement/time graph is acceleration
@@ -58,12 +57,13 @@ This can be used to find:
 - At what point in time is velocity or acceleration zero (set derivatives equal to 0)
 - When velocity or acceleration is positive and negative (use a sign chart)
 
-<pre></pre>
+
+
+<pre>
+
+</pre>
 ## Related Rates and Geometry
 ***
-
-
-<pre> </pre>
 ### Examples:
 > Ex1:
 > 
@@ -154,11 +154,4 @@ This can be used to find:
 > \frac{\text{d}d}{\text{d}t} &= -90\text{km/h}
 > \end{align}
 > $$
-
-
-
-<pre>
-
-</pre>
-Ex4: yeah 
 
