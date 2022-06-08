@@ -25,4 +25,4 @@
 - [ ] Implicit with trig
 - [ ] Graphing with trig and  with natual logs
 - [x] Calculating C
-- [ ] Int by sub with trig functions
+- [x] Int by sub with trig functions

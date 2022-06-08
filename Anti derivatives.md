@@ -185,3 +185,21 @@ Multiplying $f(x)$ out is tedious. We can substitute it.
 > u^{-\frac{1}{2}} &= (x^4-6x)^{\frac{1}{2}}
 > \end{align}
 > $$
+
+>Ex3: 
+>$$
+>\begin{align}
+>\int tan^5&(x)sec^2(x)dx \\
+>u &= tan(x) \\
+>\frac{du}{dx} &= sec^2(x)\\
+>du &= sec^2(x)dx \\
+>\end{align}
+>$$
+><pre></pre>
+>$$
+>\begin{align}
+>\int u^5& du\\
+>=&\frac{u^6}{6} \\
+>=&\frac{tan^6(x)}{6} + C
+>\end{align}
+>$$
