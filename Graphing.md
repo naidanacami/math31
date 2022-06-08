@@ -398,3 +398,146 @@ We can use derivatives to graph equations by hand:
 > - Curves down when $-2<x<2$
 > 
 > <iframe src="https://www.desmos.com/calculator/lkbqvehh3j?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+
+<pre>
+
+</pre>
+##### Ex4: Trig:
+> Graph the graph of $y=x-\cos(x)$, $x\Bigg|0\leq x\leq2\pi$
+> 
+> <pre></pre>
+> <u>**Domain**</u>
+> $$
+> x\Bigg|0\leq x\leq2\pi
+> $$
+> 
+> <pre></pre>
+> <u>**Intercepts:**</u>
+> $$
+> \begin{align}
+> y\text{-int: }y &= 0-\cos(0) = -1\\
+> x\text{-int: }x &= 0 = \sqrt{4-x^2} \\
+> x &= \cos(x) \\
+> \end{align}
+> $$
+> - $x=\cos(x)$ is algebraically difficult.
+> 
+> <pre></pre>
+> <u>**Max/Min:**</u>
+> $$
+> \begin{align}
+> y' &= 1+\sin(x)=0 \\
+> x &= \frac{3\pi}{2}
+> \end{align}
+> $$
+> 
+> ||$0$||$\frac{3\pi}{2}$||$2\pi$|
+> |:---:|:---:|:---:|:---:|:---:|:---:|
+> |$1+\sin(x)$|\||$+$|\||$+$|\||
+> |$y'=$|\||$+$|\||$+$|\||
+> - $f(x)$ is always increasing
+> 
+> <pre></pre>
+> <u>**Concavity**</u>
+> $$
+> \begin{align}
+> y'' &= \cos(x) = 0 \\
+> x &= \frac{\pi}{2},\frac{3\pi}{2}
+> \end{align}
+> $$
+> ||$0$||$\frac{\pi}{2}$||$\frac{3\pi}{2}$||$2\pi$|
+> |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+> |$\cos(x)$|\||$+$|\||$-$|\||$+$|\||
+> |$y''=$|\||$+$|\||$-$|\||$+$|\||
+> - Point of inflection at $x=\frac{\pi}{2}, \frac{3\pi}{2}$
+> $$
+> \begin{align}
+> x &= \frac{\pi}{2} \\
+> y &= \frac{\pi}{2}-\cos(\frac{\pi}{2}) \\
+> y &= \frac{\pi}{2} \\
+> \\
+> x &= \frac{3\pi}{2} \\
+> y &= \frac{3\pi}{2}-\cos(\frac{3\pi}{2}) \\
+> y &= \frac{3\pi}{2} \\
+> \\
+> (\frac{\pi}{2}, \frac{\pi}{2})&;\quad(\frac{3\pi}{2}, \frac{3\pi}{2})
+> \end{align}
+> $$
+> 
+> <iframe src="https://www.desmos.com/calculator/q53brmogx6?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+
+
+<pre>
+
+</pre>
+##### Ex5: Natural Log:
+> Graph the graph of $y=ln(4-x^2)$
+> 
+> <pre></pre>
+> <u>**Domain:**</u>
+> $$
+> \begin{align}
+> 4-x^2 &> 0 \\
+> (2-x)(2+x) &> 0 \\
+> x &= \pm2
+> \end{align}
+> $$
+> 
+> |||$-2$||$2$||
+> |:---:|:---:|:---:|:---:|:---:|:---:|
+> |$2-x$|$+$|\||$+$|\||$-$|
+> |$2+x$|$-$|\||$+$|\||$+$|
+> ||$-$|\||$+$|\||$-$|
+> $$
+> -2<x<2
+> $$
+> 
+> <pre></pre>
+> <u>**Intercepts:**</u>
+> $$
+> \begin{align}
+> y\text{-int: }y &= ln(4-0^2) = ln(4) = ~1.39\\
+> x\text{-int: }x &= 0 = ln(4-x^2)\\
+> e^0 &= 4-x^2 \\
+> 3 &= x^2 \\
+> \pm\sqrt3 &= x = ~\pm1.7 \\
+> \end{align}
+> $$
+> 
+> <pre></pre>
+> <u>**Max\Min:**</u>
+> $$
+> \begin{align}
+> y' &= \frac{-2x}{4-x^2} = 0 \\
+> x &= 0
+> \end{align}
+> $$
+> 
+> ||#|$-2$||$0$||$2$||
+> |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+> |$-2x$|#|\||$-$|\||$+$|\||#|
+> |$4-x^2$|#|\||$-$|\||$-$|\||#|
+> |$y'=$|#|\||$+$|\||$-$|\||#|
+> ||#|\||$\nearrow$|\||$\searrow$|\||#|
+> - Max at $x=0$
+> $$
+> \begin{align}
+> y &= ln(4-0^2) \\
+> y &= ln(4) \\
+> \end{align}
+> $$
+> 
+> <pre></pre>
+> <u>**Concavity:**</u>
+> $$
+> \begin{align}
+> y'' &= \frac{(4-x^2)(-2)-(-2x)(-2x)}{(4-x^2)^2} \\
+> 0 &= \frac{-8+2x^2-4x^2}{(4-x^2)^2} \\
+> 0 &= \frac{-2x^2-8}{(4-x^2)^2} \\
+> &\frac{-}{+}
+> \end{align}
+> $$
+> - Always concave down
+> 
+> <iframe src="https://www.desmos.com/calculator/7wprrcdks0?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+
