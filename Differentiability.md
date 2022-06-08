@@ -6,6 +6,10 @@ $$
 $$
 
 1. $f(x)$ must be continuous
+>$$
+>y = \frac{x^2 - 9}{x - 3}
+>$$
+>Not differentiable at x = 3
 <pre></pre>
 2. No vertical asymptotes
 > $$

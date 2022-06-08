@@ -1,7 +1,9 @@
 # Related Rates
+<<<<<<< Updated upstream
 (Rates of change)
 ***
-
+## Displacement, Velocity, and Acceleration
+***
 #### Average - Secant line
 - It is the average rate of change (**slope**)
 $$
@@ -19,11 +21,49 @@ $$
 $$ 
 
 
+### Average rates of change
+A secant line in this instance represents an average rate of change ($\Delta v$ and $\Delta a$). To calculate, simply apply $\frac{rise}{run}$ or $\frac{\Delta y}{\Delta x}$ to determine the average over a certain time. 
+
+>Ex: The displacement of a particle is given by the formula $S = -\frac{2}{3}t^3 + 10t^2 -48t -5$. What is the average velocity from $t=3s$ to $t=6s$?
+>$$
+>\begin{align}
+>S &= -\frac{2}{3}(3)^3 + 10(3)^2 - 48(3) - 5 \\
+>&= -77 cm
+>\end{align}
+>$$
+><pre></pre>
+>$$
+>\begin{align}
+>S &= -\frac{2}{3}(6)^3 + 10(6)^2 - 48(6) - 5 \\
+>&= -77 cm
+>\end{align}
+>$$
+><pre></pre>
+>$$
+>\begin{align}
+>V_{ave} = \frac{\Delta S}{\Delta t} = \frac{(-77) - (-77)}{6 - 3} = \frac{0}{3} = 0 cm/s
+>\end{align}
+>$$
+>The average velocity from $t=3s$ to $t=6s$  is 0 cm/s
+
+<pre></pre>
+
+### Exact rates of change using derivatives
+- The first derivative of a displacement/time graph is velocity
+- The second derivative of a displacement/time graph is acceleration
+
+This can be used to find:
+- Velocity or acceleration at a certain point in time
+- Velocity or acceleration at any point in time (first and second derivative respectively)
+- At what point in time is velocity or acceleration zero (set derivatives equal to 0)
+- When velocity or acceleration is positive and negative (use a sign chart)
+
+<pre></pre>
+## Related Rates and Geometry
+***
 
 
-<pre>
-
-</pre>
+<pre> </pre>
 ### Examples:
 > Ex1:
 > 
@@ -121,3 +161,4 @@ $$
 
 </pre>
 Ex4: yeah 
+
