@@ -63,4 +63,28 @@
 <pre>
 
 </pre>
-###### Ex3:
+> Ex3:
+> A Norman window has the shape of a rectangle surmounted by a semicircle. If the Norman window were to have a perimeter of $28ft$, what dimensions would allow the maximum amount of light through the window.
+> <iframe src="https://www.desmos.com/calculator/j1mco7bidc?embed" width="200'" height="250" style="border: 1px solid #ccc" frameborder=0></iframe>
+> 
+> $$
+> \begin{align}
+> 28 &= \pi r + 2y + 2r \\
+> y &= \frac{28-2r-\pi r}{2} \\
+> y &= 14-r-\frac{1}{2}\pi r \\
+> \\
+> A &= \frac{\pi r^2}{2}+2ry \\
+> A &= \frac{\pi r^2}{2}+2r(14-r-\frac{1}{2}\pi r) \\
+> A &= \frac{\pi r^2}{2}+28r-2r^2-\pi r^2\\
+> A' &= \pi r +28-4r-2\pi r=0 \\
+> A' &= -\pi r-4r+28=0 \\
+> -21 &= r(-4-\pi) \\
+> \frac{-21}{-4-\pi} &= r \\
+> \\
+> y &= 14-r-\frac{1}{2}\pi r \\
+> y &= 14-\frac{-21}{-4-\pi}-\frac{-21\pi}{-8-2\pi} \\
+> \\
+> r &= ~3.9ft \\
+> y &= ~3.9ft \\
+> \end{align}
+> $$

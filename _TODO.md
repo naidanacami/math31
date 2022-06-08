@@ -7,6 +7,6 @@
 - [x] limits
 - [x] tangent
 - [x] Graphing
-- [ ] Optimization
+- [x] Optimization
 - [x] Anti derivatives
-- [ ] Related Rates
+- [x] Related Rates

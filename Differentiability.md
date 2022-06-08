@@ -6,22 +6,22 @@ $$
 $$
 
 1. $f(x)$ must be continuous
+<pre></pre>
 2. No vertical asymptotes
-- 
-$$
-y=\frac{x}{3x-6}
-$$
-Not differentiable at $x=2$
+> $$
+> y=\frac{x}{3x-6}
+> $$
+> Not differentiable at $x=2$
 
+<pre></pre>
 3. No abrupt changes in slope
-- 
-$$
-\left|x-2\right|
-$$
-Not differentiable at $x=2$
+> $$
+> \left|x-2\right|
+> $$
+> Not differentiable at $x=2$
 
+<pre></pre>
 4. No vertical tangents
-- 
-$$
-y=\sqrt{x}
-$$
+> $$
+> y=\sqrt{x}
+> $$
