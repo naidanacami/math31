@@ -392,9 +392,47 @@ Discontinuous graphs are
 
 
 
+<pre>
+
+</pre>
+## Trig
+***
+$$
+{lim\atop x\rightarrow0}sin(x) = 0
+$$
+
 <pre></pre>
-## Equivalence
+$$
+{lim\atop x\rightarrow0}cos(x) = 1
+$$
+
+<pre></pre>
+$$
+{lim\atop x\rightarrow0}tan(x) = 0
+$$
+
+<pre></pre>
+$$
+{lim \atop x\rightarrow 0} \frac{\text{sin}(x)}{x} = 1
+$$
+* Where $x$ is any number
+
+
+
+
+<pre>
+
+</pre>
+## Addenda
+***
+### Equivalence
 It is important to remember that 
 $$
 {lim\atop x\rightarrow a}f(x)\neq f(x)
+$$
+
+<pre></pre>
+### Change $x\rightarrow a$
+$$
+{lim \atop x\rightarrow a}f(x) = {lim \atop x-a\rightarrow 0}f(x)
 $$
