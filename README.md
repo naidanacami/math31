@@ -22,11 +22,24 @@ In general, it should follow this format:
 ## Main heading
 *link to additional information*
 ***
-
-
+### First sub heading
+<pre></pre>
+<u>**sub sub heading**</u>
 
 <pre></pre>
-### Sub heading
+### Second sub heading
+> Example
+
+
+<pre>
+
+</pre>
+## Main heading
+***
+content
+
+<pre></pre>
+### First sub heading
 ```
 
 <pre></pre>
@@ -46,3 +59,11 @@ $$
 \end{align}
 $$
 ```
+
+
+
+<pre>
+
+</pre>
+## For end users:
+Turn on "Strict line breaks" under "Editor" in Obsidian
