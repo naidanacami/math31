@@ -359,6 +359,7 @@ A continuous graph is a graph that has no
 Discontinuous graphs are 
 - Rational functions with NPVs
 - Discontinuous piecewise functions
+- Trig function (tanx)
 
 <pre></pre>
 ### Determining continuity in piecewise functions
@@ -389,8 +390,67 @@ Discontinuous graphs are
 > It is continuous
 > 
 > <iframe src="https://www.desmos.com/calculator/gg6qyqqvwy?embed" width="250" height="250" style="border: 1px solid #ccc" frameborder=0></iframe>
+> 
+<pre></pre>
+### Creating continuity in graphs
+Creating continuity by finding a constant:
+1. Discontinuity occurs at the changes between the pieces of the graph, ie the points between the domains of the different peices of the piecewise function
+2. Set the limit of the positive and negative side equal to each other
+3. Algebraically solve for the missing value
 
 
+>Ex: Find a value for k so that the function is continuous everywhere
+> $$
+> \begin{equation*}
+> f(x)=\begin{cases}
+>           x^2-k \quad \quad \quad \quad x<3 \\
+>           2kx \quad \quad \quad \quad \quad x \geq 3  \\
+>      \end{cases}
+> \end{equation*}
+> $$
+> Set both sides of the domain restrction equal to each other and then solve algebraically
+> $$
+> \begin{align}
+> {lim\atop x\rightarrow 3^-}f(x)&={lim\atop x\rightarrow 3^+}f(x)& \\
+> \end{align}
+> $$
+> $$
+> \begin{align}
+> 3^2 - k &= 2k(3) \\
+> 9 - k &= 6k \\
+> 9 &= 7k \\
+> k &= \frac{9}{7}
+> \end{align}
+> $$
+
+Creating continuity by filling points of discontinuity:
+1. Simplify the fucntion and eliminate the factor that is causing the error leading to the POD
+2. Calculate the corresponding y coordinate
+3. Write a new piecewise function including an assigned value for the POD
+>Ex: Define f(3) so that f(x) is continuous
+> $$
+> \begin{align}
+> f(x) &= \frac{x^2 - 8x +15}{x - 3} \\
+> &= \frac{(x - 5)(x - 3)}{x - 3} \\
+> &= x-5
+> \end{align}
+> $$
+> <pre></pre>
+> $$
+> \begin{align}
+> f(3) &= 3-5 \\
+> &= -2 \\
+> POD &= (3,-2)
+> \end{align}
+> $$
+> $$
+> \begin{equation*}
+> f(x)=\begin{cases}
+>           \frac{x^2 - 8x +15}{x - 3} \quad \quad \quad \quad x \ne 3 \\
+>           -2 \quad \quad \quad \quad \quad \quad  x = 3  \\
+>      \end{cases}
+> \end{equation*}
+> $$
 
 <pre>
 
