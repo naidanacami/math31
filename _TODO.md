@@ -15,14 +15,14 @@
 ## Other
 - [ ] Definition of a derivative
 - [ ] Simplify derivative 
-- [ ] Derivative rules with values
+- [x] Derivative rules with values
 - [ ] More optimization examples
 - [ ] More related rate examples
 - [ ] Trig Limits examples
 - [ ] Extra trig limita
 - [ ] Trig tangent line
 - [ ] Normal line
-- [ ] Implicit with trig
+- [x] Implicit with trig
 - [ ] Graphing with trig and  with natual logs
-- [ ] Calculating C
-- [ ] Int by sub with trig functions
+- [x] Calculating C
+- [x] Int by sub with trig functions

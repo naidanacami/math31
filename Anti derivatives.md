@@ -48,6 +48,33 @@ $$
 <pre>
 
 </pre>
+## Calculating C
+- Requires to be given more information (a point on the graph)
+- Use algebra to solve for 'C'
+>Ex: Find the equation of the curve that passes through (-1, 3) and has a slope of $3x^2+12x+12$
+><pre></pre>
+>$$
+>\begin{align}
+>\int 3x^2+12x+12 = x^3+6x^2+12x+C
+>\end{align}
+>$$
+>Substitue given point into equation and solve for C
+>$$
+>\begin{align}
+>3 &= (-1)^3 + 6(-1)^2 + 12(-1) + C \\
+> C &= 10
+>\end{align}
+>$$
+><pre></pre>
+>$$
+>\begin{align}
+>y = x^3+6x^2+12x+10
+>\end{align}
+>$$
+
+ <pre>
+
+</pre>
 ## Area
 ***
 The antiderivative of an equation gives the area from the graph to the x-axis. We have to give it a range.
@@ -158,3 +185,21 @@ Multiplying $f(x)$ out is tedious. We can substitute it.
 > u^{-\frac{1}{2}} &= (x^4-6x)^{\frac{1}{2}}
 > \end{align}
 > $$
+
+>Ex3: 
+>$$
+>\begin{align}
+>\int tan^5&(x)sec^2(x)dx \\
+>u &= tan(x) \\
+>\frac{du}{dx} &= sec^2(x)\\
+>du &= sec^2(x)dx \\
+>\end{align}
+>$$
+><pre></pre>
+>$$
+>\begin{align}
+>\int u^5& du\\
+>=&\frac{u^6}{6} \\
+>=&\frac{tan^6(x)}{6} + C
+>\end{align}
+>$$
