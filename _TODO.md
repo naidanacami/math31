@@ -13,7 +13,7 @@
 
 
 ## Other
-- [ ] Definition of a derivative
+- [x] Definition of a derivative
 - [ ] Simplify derivative 
 - [x] Derivative rules with values
 - [ ] More optimization examples
