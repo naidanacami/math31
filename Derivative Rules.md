@@ -18,7 +18,7 @@ $$
 
 <pre></pre>
 $$
-y=\left[f(x)\right]^n \quad\longrightarrow\quad y'=n\left[f(x)\right]f'(x) 
+y=\left[f(x)\right]^n \quad\longrightarrow\quad y'=n\left[f(x)\right]^{n-1}f'(x) 
 $$
 
 <pre></pre>
