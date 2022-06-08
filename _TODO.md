@@ -11,3 +11,8 @@
 - [x] Anti derivatives
 - [x] Related Rates
 - [x]  Distance/velocity/acceleration
+
+
+## Other
+- [ ] Definition of a derivative
+- [ ]
