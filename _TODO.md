@@ -1,0 +1,12 @@
+- [ ]  Slant asymptote
+- [x] Absolute max/min
+- [x] Derivative rules
+- [ ] Differentiability
+- [x] Higher order derivatives
+- [x] Implicit differentiation
+- [x] limits
+- [x] tangent
+- [x] Graphing
+- [ ] Optimization
+- [x] Anti derivatives
+- [ ] Related Rates
