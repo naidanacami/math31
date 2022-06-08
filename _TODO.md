@@ -23,6 +23,6 @@
 - [ ] Trig tangent line
 - [ ] Normal line
 - [x] Implicit with trig
-- [ ] Graphing with trig and  with natual logs
+- [x] Graphing with trig and  with natual logs
 - [x] Calculating C
 - [x] Int by sub with trig functions
