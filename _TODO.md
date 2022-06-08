@@ -1,4 +1,3 @@
-- [ ]  Slant asymptote
 - [x] Absolute max/min
 - [x] Derivative rules
 - [ ] Differentiability
