@@ -1,5 +1,13 @@
 # Derivative Rules
+## Definition of a Derivative
+A secant line between two points so close that they are effectively the same point, creating a line tangential to that point
+$$
+{lim\atop h\rightarrow 0} \frac{f(x+h) - f(x)}{h}
+$$
 
+<pre>
+
+</pre>
 ## Essential
 <u>**General**</u>
 $$
