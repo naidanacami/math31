@@ -22,7 +22,7 @@
 - [ ] Extra trig limita
 - [ ] Trig tangent line
 - [ ] Normal line
-- [ ] Implicit with trig
+- [x] Implicit with trig
 - [ ] Graphing with trig and  with natual logs
 - [x] Calculating C
 - [x] Int by sub with trig functions

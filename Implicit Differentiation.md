@@ -89,3 +89,23 @@ y'|_{x=4} &= \frac{8}{-1}\\
 y'|_{x=4} &= -4 \\
 \end{align}
 >$$
+
+>Examples: Implicit differentiation with trig functions
+><pre></pre>
+>I) $sin(y) = cos(x)$
+>$$
+>\begin{align}
+>cos(y)y' &= -sin(x) \\
+>y' &= \frac{-sin(x)}{cosy(y)}
+>\end{align}
+>$$
+><pre></pre>
+>II) $3tan(y) = y^4 - sin(x)$
+>$$
+>\begin{align}
+>3sec^2(y)y' &= 4y^3y' - cos(x) \\
+>3sec^2(y)y' - 4y^3y' &= - cos(x) \\
+>y'[3sec^2(y)- 4y^3] &= - cos(x) \\
+>y' &= \frac{- cos(x)}{3sec^2(y)- 4y^3}
+>\end{align}
+>$$
