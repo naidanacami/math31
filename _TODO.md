@@ -24,5 +24,5 @@
 - [ ] Normal line
 - [ ] Implicit with trig
 - [ ] Graphing with trig and  with natual logs
-- [ ] Calculating C
+- [x] Calculating C
 - [ ] Int by sub with trig functions
