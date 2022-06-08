@@ -10,3 +10,4 @@
 - [x] Optimization
 - [x] Anti derivatives
 - [x] Related Rates
+- [ ]  Distance/velocity/acceleration
