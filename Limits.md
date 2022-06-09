@@ -160,7 +160,6 @@ Look at the graph
 
 <u>**No value at what x is approaching**</u>
 - The graph does not need to have a value at the point that $x$ is approaching.
-- The graph has to be continuous
 
 > Ex1:
 > $$
