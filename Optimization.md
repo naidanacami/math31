@@ -225,3 +225,53 @@
 > h &= 2m \\ \\ 
 > \end{align}
 > $$
+
+
+
+<pre>
+
+</pre>
+> Ex: Cylinder
+> 
+> A can of peanuts has a circular base and top, and it is cylindrical in shape. The volume is $500cm^3$. If the can is to require the least amount of material, what must its dimensions be?
+> 
+> Equation for the volume of  a cylinder:
+> $$
+> V = \pi r^2h
+> $$
+> 
+> Rearranging for one of the variables:
+> $$
+> \begin{align}
+> V &= \pi r^2h \\
+> 500 &= \pi r^2h \\
+> h &= \frac{500}{\pi r^2}
+> \end{align}
+> $$
+> 
+> Equation for the surface area of a cylinder:
+> $$
+> SA = 2\pi r^2+2\pi rh
+> $$
+> 
+> We can replace the variable that we solved for previously:
+> $$
+> \begin{align}
+> SA &= 2\pi r^2+2\pi rh \\
+> SA &= 2\pi r^2+2\pi r\left(\frac{500}{\pi r^2}\right) \\
+> SA &= 2\pi r^2+\frac{1000}{r} \\
+> SA &= 2\pi r^2+1000r^{-1} \\
+> \\
+> SA' &= 4\pi r -1000r^{-2} = 0 \\
+> r &= \sqrt[3]{\frac{1000}{4\pi}}
+> \end{align}
+> $$
+> 
+> We now have to solve for height:
+> $$
+> \begin{align}
+> h &= \frac{500}{\pi r^2} \\
+> h &= \frac{500}{\pi \left(\sqrt[3]{\frac{1000}{4\pi}}\right)^2} \\
+> 
+> \end{align}
+> $$
