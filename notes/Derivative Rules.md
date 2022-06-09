@@ -43,7 +43,7 @@ $$
 <pre>
 
 </pre>
-<u>**Trig**</u>
+<u>**Trig**</u> ^62cee9
 
 $$
 y=\sin(x) \quad\longrightarrow\quad y'=\cos(x)x'
