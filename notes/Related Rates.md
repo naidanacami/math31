@@ -38,8 +38,8 @@ $$
 $$
 \frac{\text{d}x}{\text{d}y}
 $$ 
-- The first derivative of a displacement/time graph is velocity
-- The second derivative of a displacement/time graph is acceleration
+- The **first derivative** of a displacement/time graph is **velocity**
+- The **second derivative** of a displacement/time graph is **acceleration**
 
 This can be used to find:
 - Velocity or acceleration at a certain point in time

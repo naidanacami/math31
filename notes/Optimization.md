@@ -193,7 +193,7 @@
 > $$
 > \begin{align}
 > \text{Length:} &= [32-2(4.27)] = 23.45cm \\
-> \text{Length: } &= [22-2(4.27)] = 13.45cm \\
+> \text{Width: } &= [22-2(4.27)] = 13.45cm \\
 > \text{Height: } &= 4.27cm \\
 > \end{align}
 > $$
