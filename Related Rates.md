@@ -54,75 +54,7 @@ This can be used to find:
 </pre>
 ## Related Rates and Geometry
 ***
-### Examples:
-#### Sphere
-> Ex: Sphere surface area
-> 
-> A snowball is melting so the surface area decreases at a rate of $0.5\text{cm}^2/\text{min}$. Find the rate that the surface area is decreasing when the radius is $4\text{cm}$
-> 
-> The equation for surface area:
-> $$
-> SA_{sphere} = 4\pi r^2
-> $$
-> 
-> Melting can be represented as:
-> $$
-> \frac{\text{d}SA}{\text{d}t} = -0.5\text{cm}^2/\text{min}\\
-> $$
-> 
-> Solving:
-> $$
-> \begin{align} 
-> SA &= 4\pi r^2 \\
-> \frac{\text{d}SA}{\text{d}t} &= 8\pi r \frac{\text{d}r}{\text{d}t} \\
-> -0.5 &= 8\pi4\frac{\text{d}r}{\text{d}t} \\
-> \frac{-1}{64\pi}\text{cm}/\text{min} &= \frac{\text{d}r}{\text{d}t}
-> \end{align}
-> $$
-
-
-
-<pre>
-
-</pre>
-#### Special cases
-> Ex: Sphere surface area - <u>Indirectly related rates</u>
-> 
-> A spherical balloon deflates at a rate of $1\text{cm}^3/\text{min}$. Find the rate of surface area change when radius equals $4\text{cm}$. 
-> 
-> There is no equation that directly relates volume and surface area. We must find the rate of change of radius. 
-> $$
-> \begin{align}
-> \frac{\text{d}V}{\text{d}t} &= -1\text{cm}^3/\text{min} \\
-> \frac{\text{d}SA}{\text{d}t} &= ?
-> \end{align}
-> $$
-> 
-> The variable that links the two equations is radius. We can solve form radius:
-> $$
-> \begin{align}
-> V &= \frac{4}{3}\pi r^3 \\
-> \frac{\text{d}V}{\text{d}t} &= 4\pi r^20 \frac{\text{d}r}{\text{d}t} \\
-> -1 &= 4\pi 4^2 \frac{\text{d}r}{\text{d}t} \\
-> \frac{-1}{64\pi} \text{cm/min} &= \frac{\text{d}r}{\text{d}t} \\
-> \end{align}
-> $$
-> 
-> Now we have the rate of change of radius when radius is 4, we can find the rate of change of surface area:
-> $$
-> \begin{align}
-> SA &= 4\pi r^2 \\
-> \frac{\text{d}SA}{\text{d}t} &= 8\pi r \frac{\text{d}r}{\text{d}t} \\
-> &= 8\pi 4 \frac{-1}{64\pi} \\
-> &= -\frac{1}{2}\text{cm}^2\text{/min}
-> \end{align}
-> $$
-
-
-
-<pre>
-
-</pre>
+### 2D:
 #### Triangles
 > Ex: Triangles with 2 moving objects
 > 
@@ -195,6 +127,62 @@ This can be used to find:
 <pre>
 
 </pre>
+#### Rectangle:
+> Ex:
+> 
+> The length of a rectangle is increasing at $2cm/s$ and the width is increasing at $1cm/s$. Find the rate of change of area when length is equal to $10cm$ and width is equal to $6cm$
+> 
+> The equation for area of a rectangle:
+> $$
+> A = lw
+> $$
+> 
+> We can solve:
+> $$
+> \begin{align}
+> A &= lw \\
+> \frac{dA}{dt} &= l\frac{dw}{dt}+w\frac{dl}{dt} \\
+> \frac{dA}{dt} &= (10)(1)+(6)(2) \\
+> \frac{dA}{dt} &= 22cm^2/s
+> \end{align}
+> $$
+
+
+
+<pre>
+
+</pre>
+### 3D
+#### Sphere
+> Ex: Sphere surface area
+> 
+> A snowball is melting so the surface area decreases at a rate of $0.5\text{cm}^2/\text{min}$. Find the rate that the surface area is decreasing when the radius is $4\text{cm}$
+> 
+> The equation for surface area:
+> $$
+> SA_{sphere} = 4\pi r^2
+> $$
+> 
+> Melting can be represented as:
+> $$
+> \frac{\text{d}SA}{\text{d}t} = -0.5\text{cm}^2/\text{min}\\
+> $$
+> 
+> Solving:
+> $$
+> \begin{align} 
+> SA &= 4\pi r^2 \\
+> \frac{\text{d}SA}{\text{d}t} &= 8\pi r \frac{\text{d}r}{\text{d}t} \\
+> -0.5 &= 8\pi4\frac{\text{d}r}{\text{d}t} \\
+> \frac{-1}{64\pi}\text{cm}/\text{min} &= \frac{\text{d}r}{\text{d}t}
+> \end{align}
+> $$
+
+
+
+<pre>
+
+</pre>
 #### Cones
 > Ex: Cone
 > 
@@ -229,5 +217,115 @@ This can be used to find:
 > \frac{dV}{dt} &= \frac{1}{16}\pi h^2\frac{dh}{dt} \\
 > 2 &= \frac{1}{16}\pi 8^2\frac{dh}{dt} \\
 > \frac{dh}{dt} &= -\frac{1}{2\pi}cm/min
+> \end{align}
+> $$
+
+<pre></pre>
+> Ex:
+> 
+> A water tank is built in the shape of a circular cone with a height of $5m$ and a diameter of $6m$ at the top. Water is being pumped out of the tank at a rate of $1.6m^3/min$. Find the rate at which the water level is falling when the water is $2m$ deep.
+> 
+> Equation of the volume of a cylinder:
+> $$
+> V = \frac{1}{3}\pi r^2h
+> $$
+> 
+> There are too many variables. We can remove one by substituting an equation of similar triangles. Because we need to preserve the variable, $h$, we solve for $r$:
+> $$
+> \begin{align}
+> \frac{r}{h} &= \frac{3}{5} \\
+> r &= \frac{3}{5}h
+> \end{align}
+> $$
+> 
+> We can now substitute this into the original equation:
+> $$
+> \begin{align}
+> V = \frac{1}{3}\pi r^2h \\
+> V = \frac{1}{3}\pi \left(\frac{3}{5}h\right)^2h \\
+> V = \frac{3}{25}\pi h^3 \\
+> \end{align}
+> $$
+> 
+> We can now solve:
+> $$
+> \begin{align}
+> V &= \frac{3}{25}\pi h^3 \\
+> \frac{dV}{dt} &= \frac{9}{25}\pi h^2\frac{dh}{dt} \\
+> -1.6 &= \frac{9}{25}\pi 2^2\frac{dh}{dt} \\
+> \frac{dV}{dt} &= \frac{9}{25}\pi h^2\frac{dh}{dt} \\
+> \frac{dh}{dt} &= -\frac{10}{9\pi}m/min
+> \end{align}
+> $$
+
+
+
+<pre>
+
+</pre>
+#### Cube/Rectangular Prism
+> Ex: Volume
+> 
+> A rectangular trough is $3m$ long, $1m$ across the top and $1.3m$ deep. Water flows in at $1.6m^3m/min$. How fast is the depth rising when it is $0.5m$ deep?
+> 
+> Formula for volume  the volume of a rectangular prism:
+> $$
+> V = lwh
+> $$
+> 
+> Since length and width are constant, we can substitute them:
+> $$
+> \begin{align}
+> V &= lwh \\
+> V &= (3)(1)h \\
+> V &= 3h \\
+> \end{align}
+> $$
+> 
+> We can now solve:
+> $$
+> \begin{align}
+> V &= 3h \\
+> \frac{dV}{dt} &= 3\frac{dh}{dt} \\
+> 1.6 &= 3\frac{dh}{dt} \\
+> \frac{dh}{dt} &= \frac{8}{15} m/min \\
+> \end{align}
+> $$
+
+
+
+<pre>
+
+</pre>
+#### Special cases
+> Ex: Sphere surface area - <u>Indirectly related rates</u>
+> 
+> A spherical balloon deflates at a rate of $1\text{cm}^3/\text{min}$. Find the rate of surface area change when radius equals $4\text{cm}$. 
+> 
+> There is no equation that directly relates volume and surface area. We must find the rate of change of radius. 
+> $$
+> \begin{align}
+> \frac{\text{d}V}{\text{d}t} &= -1\text{cm}^3/\text{min} \\
+> \frac{\text{d}SA}{\text{d}t} &= ?
+> \end{align}
+> $$
+> 
+> The variable that links the two equations is radius. We can solve form radius:
+> $$
+> \begin{align}
+> V &= \frac{4}{3}\pi r^3 \\
+> \frac{\text{d}V}{\text{d}t} &= 4\pi r^20 \frac{\text{d}r}{\text{d}t} \\
+> -1 &= 4\pi 4^2 \frac{\text{d}r}{\text{d}t} \\
+> \frac{-1}{64\pi} \text{cm/min} &= \frac{\text{d}r}{\text{d}t} \\
+> \end{align}
+> $$
+> 
+> Now we have the rate of change of radius when radius is 4, we can find the rate of change of surface area:
+> $$
+> \begin{align}
+> SA &= 4\pi r^2 \\
+> \frac{\text{d}SA}{\text{d}t} &= 8\pi r \frac{\text{d}r}{\text{d}t} \\
+> &= 8\pi 4 \frac{-1}{64\pi} \\
+> &= -\frac{1}{2}\text{cm}^2\text{/min}
 > \end{align}
 > $$
