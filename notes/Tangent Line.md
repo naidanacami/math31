@@ -109,6 +109,8 @@ y &= -12
 > y=-\frac{1}{2}x + (2 - \frac{\sqrt 3}{2} + \frac{5\pi}{12})
 > $$
 
+^403206
+
 > Example: Find the equation of the tangent line to the curve $y=3csc(x)$ at the point $x=\frac{\pi}{4}$
 > 
 > 1. Find $m$
