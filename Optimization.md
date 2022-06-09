@@ -205,25 +205,6 @@
 </pre>
 > Ex:
 > 
-> A ball is thrown up in the air. Its height is given by the equation $h = -16t^2+50t$. What is its maximum height?
-> 
-> $$
-> \begin{align}
-> h' &= -32t + 50 \\ \\ \\
-> 0 &= -32t + 50 \\
-> t &= \frac{25}{16}s \\ \\ \\
-> h &= -16(\frac{25}{16})^2 + 50(\frac{25}{16}) \\
->h &= 39.0625m
-> \end{align}
-> $$
-
-
-
-<pre>
-
-</pre>
-> Ex:
-> 
 > The base of a wooden chest is rectangular with the length being twice the width. The total volume of the chest is $12.25m^3$. The back and base are made of pine while the top, front and sides are made of oak. Oak costs 3 times as much as pine. Find dimensions of the chest to minimize costs.
 > 
 > $$
