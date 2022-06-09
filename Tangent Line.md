@@ -75,6 +75,62 @@ y &= -12
 \end{align}
 >$$
 
+> Example: Find the equation of the tangent line to the curve $y=2+cos(x)$ at thee point $x=\frac{5\pi}{6}$
+> 
+> 1. Find $y$
+> $$
+> \begin{align}
+> y&=2+cos(x) \\
+> y&=2+cos(\frac{5\pi}{6}) \\
+> y&=2+\frac{-\sqrt 3}{2} \\
+> \end{align}
+> $$
+> 
+> 2. Find $m$
+> $$
+> \begin{align}
+> y'&=-sin(x) \\
+> y'&=-sin(\frac{5\pi}{6}) \\
+> m &= -\frac{1}{2} 
+> \end{align}
+> $$
+> 
+> 3. Find $b$
+> $$
+> \begin{align}
+> y&=mx+b \\
+> 2+\frac{-\sqrt 3}{2}&=-\frac{1}{2}(\frac{5\pi}{6})+b \\
+> b&= 2 - \frac{\sqrt 3}{2} + \frac{5\pi}{12}
+> \end{align}
+> $$
+> 
+> 4. Solve
+> $$
+> y=-\frac{1}{2}x + (2 - \frac{\sqrt 3}{2} + \frac{5\pi}{12})
+> $$
+
+> Example: Find the equation of the tangent line to the curve $y=3csc(x)$ at thee point $x=\frac{\pi}{4}$
+> 
+> 1. Find $m$
+> $$
+> \begin{align}
+> y'&=\frac{3}{sin(x)} \\
+> y'&=\frac{sin(x)(0) - 3cos(x)}{sin^2(x)} \\
+> y'&=\frac{- 3cos(x)}{sin^2(x)} \\
+> y'&=\frac{- 3cos(\frac{\pi}{4})}{sin^2(\frac{\pi}{4})} \\
+> y'&=\frac{- 3(\frac{\sqrt 2}{2})}{(\frac{\sqrt 2}{2})^2} \\
+> m&=-3 \sqrt 2 \\
+> \end{align}
+> $$
+> 
+> 2. Take negative reciprocal
+> $$
+> \begin{align}
+> m&=\frac{1}{3 \sqrt 2} \\
+> \end{align}
+> $$
+> 
+
 > Example: Find the equation of the tangent line to the curve $y=e^{-x}+e^{2x}$ at thee point $x=0$
 > 
 > 1. Find $y$
@@ -109,3 +165,4 @@ y &= -12
 > $$
 > y=x+2
 > $$
+

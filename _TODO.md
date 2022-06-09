@@ -20,8 +20,8 @@
 - [ ] More related rate examples
 - [ ] Trig Limits examples
 - [ ] Extra trig limita
-- [ ] Trig tangent line
-- [ ] Normal line
+- [x] Trig tangent line
+- [x] Normal line
 - [x] Implicit with trig
 - [x] Graphing with trig and  with natual logs
 - [x] Calculating C
