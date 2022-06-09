@@ -19,7 +19,7 @@
 - [ ] More optimization examples
 - [ ] More related rate examples
 - [ ] Trig Limits examples
-- [ ] Extra trig limita
+- [x] Extra trig limita
 - [x] Trig tangent line
 - [x] Normal line
 - [x] Implicit with trig

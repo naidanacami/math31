@@ -475,6 +475,11 @@ $$
 $$
 {lim \atop x\rightarrow 0} \frac{\text{sin}(x)}{x} = 1
 $$
+
+<pre></pre>
+$$
+{lim \atop x\rightarrow 0} \frac{1 -\text{cos}(x)}{x} = 0
+$$
 * Where $x$ is any number
 
 
