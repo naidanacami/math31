@@ -1,28 +1,14 @@
 # Related Rates
-<<<<<<< Updated upstream
 (Rates of change)
 ***
 ## Displacement, Velocity, and Acceleration
 ***
-#### Average - Secant line
+### Average rates of change - Secant line
+A secant line in this instance represents an average rate of change ($\Delta v$ and $\Delta a$). To calculate, simply apply $\frac{rise}{run}$ or $\frac{\Delta y}{\Delta x}$ to determine the average over a certain time. 
 - It is the average rate of change (**slope**)
 $$
 \frac{\Delta y}{\Delta x}
 $$
-
-
-
-<pre></pre>
-#### Instantaneous Rate of Change - Derivative
-- It is the instant rate of change
-$$
-\frac{\text{d}x}{\text{d}y}
-$$ 
-
-
-### Average rates of change
-A secant line in this instance represents an average rate of change ($\Delta v$ and $\Delta a$). To calculate, simply apply $\frac{rise}{run}$ or $\frac{\Delta y}{\Delta x}$ to determine the average over a certain time. 
-
 >Ex: The displacement of a particle is given by the formula $S = -\frac{2}{3}t^3 + 10t^2 -48t -5$. What is the average velocity from $t=3s$ to $t=6s$?
 >$$
 >\begin{align}
@@ -47,7 +33,11 @@ A secant line in this instance represents an average rate of change ($\Delta v$ 
 
 
 <pre></pre>
-### Exact rates of change using derivatives
+### Instantaneous Rate of Change - Derivative
+- It is the instant rate of change
+$$
+\frac{\text{d}x}{\text{d}y}
+$$ 
 - The first derivative of a displacement/time graph is velocity
 - The second derivative of a displacement/time graph is acceleration
 
@@ -65,7 +55,8 @@ This can be used to find:
 ## Related Rates and Geometry
 ***
 ### Examples:
-> Ex1:
+#### Sphere
+> Ex: Sphere surface area
 > 
 > A snowball is melting so the surface area decreases at a rate of $0.5\text{cm}^2/\text{min}$. Find the rate that the surface area is decreasing when the radius is $4\text{cm}$
 > 
@@ -94,7 +85,8 @@ This can be used to find:
 <pre>
 
 </pre>
-> Ex2: Two values that aren't directly related
+#### Special cases
+> Ex: Sphere surface area - <u>Indirectly related rates</u>
 > 
 > A spherical balloon deflates at a rate of $1\text{cm}^3/\text{min}$. Find the rate of surface area change when radius equals $4\text{cm}$. 
 > 
@@ -131,7 +123,9 @@ This can be used to find:
 <pre>
 
 </pre>
-> Ex3: Trig
+#### Triangles
+> Ex: Triangles with 2 moving objects
+> 
 > Joe is driving west at $60\text{km/h}$. Qwerty is driving south at $70\text{km/h}$. Both cars are approaching an intersection of the two roads. How fast are the two cars approaching each other when Joe is $0.4\text{km}$ away from the intersection and Qwerty is $0.3\text{km}$ away from the intersection?
 > 
 > We have to find the hypotenuse distance:
@@ -155,3 +149,85 @@ This can be used to find:
 > \end{align}
 > $$
 
+
+
+<pre>
+
+</pre>
+#### Circles
+> Ex: Circle area
+> 
+> The area of a circle is $9\pi cm^2$. The area is increasing at a rate of $\frac{\pi}{2}cm^2/min$. Find the rate of change of the radius
+> 
+> The equation of the area of a circle is:
+> $$
+> A = \pi r^2
+> $$
+> 
+> To find the rate of change of the radius:
+> $$
+> \begin{align}
+> A &= \pi r^2 \\
+> \frac{dA}{dt} &= 2\pi r \frac{dr}{dt}
+> \end{align}
+> $$
+> 
+> To solve, we need to know $r$ when $A=9\pi$.
+> $$
+> \begin{align}
+> A &= \pi r^2 \\
+> 9\pi &= \pi r^2 \\
+> \sqrt9 &= r = 3
+> \end{align}
+> $$
+> 
+> We can now solve:
+> $$
+> \begin{align}
+> \frac{dA}{dt} &= 2\pi r \frac{dr}{dt} \\
+> -\frac{\pi}{2} &= 2\pi(3)\frac{dr}{dt} \\
+> \frac{dr}{dt} &= -\frac{1}{12}cm/min
+> \end{align}
+> $$
+
+
+
+<pre>
+
+</pre>
+#### Cones
+> Ex: Cone
+> 
+> Liquid is cleared of sediment by pouring it through a conical filter that is $16cm$ high and has a $4cm$ radius at the top. Liquid flows at $2cm^3/min$. At what rate is the depth changing when the liquid is $8cm$ deep?
+> 
+> Equation for volume of a cone:
+> $$
+> V = \frac{1}{3}\pi r^2h
+> $$
+> 
+> There are too many variables. We can remove one by substituting an equation of similar triangles. Because we need to preserve the variable, $h$, we solve for $r$:
+> $$
+> \begin{align}
+> \frac{r}{h} &= \frac{4}{16} \\
+> r &= \frac{h}{4}
+> \end{align}
+> $$
+> 
+> We can now substitute this into the original equation:
+> $$
+> \begin{align}
+> V &= \frac{1}{3}\pi r^2h \\
+> V &= \frac{1}{3}\pi \left(\frac{h}{4}\right)^2h \\
+> V &= \frac{1}{48}\pi h^3
+> \end{align}
+> $$
+> 
+> We can now solve:
+> $$
+> \begin{align}
+> V &= \frac{1}{48}\pi h^3 \\
+> \frac{dV}{dt} &= \frac{1}{16}\pi h^2\frac{dh}{dt} \\
+> 2 &= \frac{1}{16}\pi 8^2\frac{dh}{dt} \\
+> \frac{dh}{dt} &= -\frac{1}{2\pi}cm/min
+> \end{align}
+> $$
