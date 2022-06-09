@@ -18,7 +18,7 @@
 - [x] Derivative rules with values
 - [ ] More optimization examples
 - [x] More related rate examples
-- [ ] Trig Limits examples
+- [x] Trig Limits examples
 - [x] Extra trig limita
 - [x] Trig tangent line
 - [x] Normal line
