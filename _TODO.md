@@ -1,6 +1,6 @@
 - [x] Absolute max/min
 - [x] Derivative rules
-- [ ] Differentiability
+- [x] Differentiability
 - [x] Higher order derivatives
 - [x] Implicit differentiation
 - [x] limits
@@ -16,7 +16,7 @@
 - [x] Definition of a derivative
 - [x] Simplify derivative 
 - [x] Derivative rules with values
-- [ ] More optimization examples
+- [x] More optimization examples
 - [x] More related rate examples
 - [x] Trig Limits examples
 - [x] Extra trig limita
