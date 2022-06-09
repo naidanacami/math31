@@ -489,42 +489,42 @@ $$
 > {lim\atop x\rightarrow 0}\frac{sin(x)}{3x}&= \frac{1}{3} \\
 > \end{align}
 > $$
->***
+
 >Ex:
 > $$
 > \begin{align}
 > {lim\atop x\rightarrow 0}\frac{2sin(x)}{x}&= 2 \\
 > \end{align}
 > $$
->***
+
 >Ex:
 > $$
 > \begin{align}
 > {lim\atop x\rightarrow 0}\frac{sin^2(x)}{x^2}&={lim\atop x\rightarrow 0}\frac{sin(x)sin(x)}{(x)(x)} = 1 \\
 > \end{align}
 > $$
->***
+
 >Ex:
 > $$
 > \begin{align}
 > {lim\atop x\rightarrow 0}\frac{sin(5x)}{x}&={lim\atop x\rightarrow 0}\frac{5sin(5x)}{(5x)} = 5 \\
 > \end{align}
 > $$
->***
+
 >Ex:
 > $$
 > \begin{align}
 > {lim\atop x\rightarrow 0}\frac{sin(2x)}{xcos(2x)}&={lim\atop x\rightarrow 0}\frac{2sin(2x)}{2xcos(2x)} = {lim\atop x\rightarrow 0}\frac{2}{cos(2x)} = 2 \\
 > \end{align}
 > $$
->***
+
 >Ex:
 > $$
 > \begin{align}
 > {lim\atop x\rightarrow 0}\frac{3-3cos^2(x)}{x^2}&={lim\atop x\rightarrow 0}\frac{3[1-cos^2(x)]}{x^2} = {lim\atop x\rightarrow 0}\frac{3sin^2(x)}{x^2} = 3 \\
 > \end{align}
 > $$
->***
+
 >Ex:
 > $$
 > \begin{align}
