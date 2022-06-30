@@ -1,69 +1,12 @@
-# Readme
+# AB Math 31 notes
+
+## Reading the notes:
 ***
+These notes are not [WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG). It is recommended to view them through an application that supports:
+- [Markdown](https://en.wikipedia.org/wiki/Markdown), a markup language for creating formatted text using a plain-text editor. You will need a markdown app in order to properly view the notes.
+- [LaTeX](https://en.wikipedia.org/wiki/LaTeX) which is used to display equations. Without a latex reader, the equations will be displayed in plaintext.
+- [HTML](https://en.wikipedia.org/wiki/HTML), a markup language.
+- [Obsidian backlinks](https://help.obsidian.md/Plugins/Backlinks)
 
-<pre>
-
-</pre>
-## Format
-*(For Collaborators)*
-***
-In general, it should follow this format:
-
-```
-# Document title
-*link to additional information*
-***
-
-
-
-<pre>
-
-</pre>
-## Main heading
-*link to additional information*
-***
-### First sub heading
-<pre></pre>
-<u>**sub sub heading**</u>
-
-<pre></pre>
-### Second sub heading
-> Example
-
-
-<pre>
-
-</pre>
-## Main heading
-***
-content
-
-<pre></pre>
-### First sub heading
-```
-
-<pre></pre>
-LaTeX can follow this format:
-```
-$inline equation$
-
-$$
-main equation
-$$
-
-$$
-\begin{align}
-&series \\
-&of \\
-&equations \\
-\end{align}
-$$
-```
-
-
-
-<pre>
-
-</pre>
-## For end users:
-Turn on "Strict line breaks" under "Editor" in Obsidian
+These notes were written in [Obsidian](https://obsidian.md/). This is the recommended way to view them.
+- [Get Obsidian](https://obsidian.md)
